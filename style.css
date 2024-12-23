@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
+    color: #353536;
     background: black;
     overflow-x: hidden;
   }
   
   header {
-    background: linear-gradient(to right,green, green);
+    background: linear-gradient(to right,rgb(228, 56, 4), rgb(212, 6, 6));
     color:black;
     padding: 20px 10px;
     text-align: center;
@@ -59,8 +59,8 @@ body {
   
   footer {
     margin-top: 20px;
-    background:yellow;
-    color: green;
+    background:rgb(36, 3, 184);
+    color: rgb(232, 4, 4);
     padding: 10px 0;
     font-size: 0.9rem;
     text-align: center;

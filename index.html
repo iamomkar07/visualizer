@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive 3D Equation Visualizer</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Interactive 3D Equation Visualizer</h1>
+    <p>Select a 3D equation to visualize and adjust its parameters to see real-time changes.</p>
+  </header>
+
+  <main>
+    <div id="controls">
+      <label for="equation-select">Select Equation:</label>
+      <select id="equation-select">
+        <option value="paraboloid">Paraboloid: z = ax² + by²</option>
+        <option value="sphere">Sphere: (x - h)² + (y - k)² + (z - l)² = r²</option>
+        <option value="ellipsoid">Ellipsoid: (x - h)²/a² + (y - k)²/b² + (z - l)²/c² = 1</option>
+        <option value="hyperboloid">Hyperboloid: (x - h)²/a² - (y - k)²/b² - (z - l)²/c² = 1</option>
+        <option value="plane">Plane: ax + by + cz = d</option>
+      </select>
+
+      <div id="sliders">
+        <!-- Sliders dynamically generated -->
+      </div>
+    </div>
+
+    <div id="plot"></div>
+  </main>
+
+  <footer>
+    <p>Created with Plotly.js | Interactive 3D Math Visualizations</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

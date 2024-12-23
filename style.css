@@ -1,0 +1,68 @@
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+    background: black;
+    overflow-x: hidden;
+  }
+  
+  header {
+    background: linear-gradient(to right,green, green);
+    color:black;
+    padding: 20px 10px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  select, input[type="range"] {
+    margin: 10px;
+  }
+  
+  .slider-container {
+    margin: 10px 0;
+  }
+  
+  input[type="range"] {
+    width: 300px;
+  }
+  
+  #plot {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  footer {
+    margin-top: 20px;
+    background:yellow;
+    color: green;
+    padding: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  
